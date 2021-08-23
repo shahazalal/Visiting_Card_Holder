@@ -80,6 +80,7 @@ class _ContactRowItemState extends State<ContactRowItem> {
                   .then((value) {
                 setState(() {
                   widget.contactModel.favorite = !widget.contactModel.favorite!;
+                  print('git');
                 });
               });
             },
